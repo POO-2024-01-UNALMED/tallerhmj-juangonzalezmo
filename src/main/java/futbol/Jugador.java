@@ -14,9 +14,9 @@ public class Jugador extends Futbolista{
 		
 	}
 	
-	public Jugador(String nombre, int edad, String posicion) {
+	public Jugador() {
 		
-		super(nombre,edad,posicion);
+		super();
 		this.golesMarcados = 289;
 		this.dorsal = 7;
 	}
